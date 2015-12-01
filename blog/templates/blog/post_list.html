@@ -6,15 +6,13 @@
     <div>
       <h1><a href="">Moogs Blog</a></h1>
     </div>
+  {% for post in posts %}
     <div>
-      <p>published: 14.06.2014, 12:14</p>
-      <h2><a href="">첫번째 포스트 post</a></h2>
-      <p>제목을 누르면 이동합니다
+      <p>published: {{ post.published_date }}</p>
+      <h1><a href="">{{ post.title }}</a></h1>
+      <p>{{ post.text|linebreaks }}</p>
     </div>
-    <div>
-      <p>published: 14.06.2014, 12:14</p>
-      <h2><a href="">두번째 포스트</a></h2>
-      <p>제목을 누르면 이동합니다x2
-    </div>
+  {% endfor %}
+
   </body>
 </html>
