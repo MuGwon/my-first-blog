@@ -1,25 +1,25 @@
   h1 a {
     color: #FCA205;
-    font-family: 'Lobster';
+    font-family: 'Hanna';
 }
   body {
-    padding-left: 15px;
+    padding-left: 0px;
 }
   .page-header {
-    background-color: #b92000;
+    background-color: #191970;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
-.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+  .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
-    font-size: 36pt;
+    font-size: 28pt;
     text-decoration: none;
 }
-.content {
+  .content {
     margin-left: 40px;
 }
 h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Hanna', cursive;
 }
 .date {
     float: right;
@@ -32,7 +32,7 @@ h1, h2, h3, h4 {
     width: 100%;
 }
 .top-menu, .top-menu:hover, .top-menu:visited {
-    color: #ffffff;
+    color: #B0C4DE;
     float: right;
     font-size: 26pt;
     margin-right: 20px;
